@@ -1,0 +1,9 @@
+[ 2024-05-17 16:25:18,970 ] 29 root - INFO - Entered the data ingestion method or component
+[ 2024-05-17 16:25:19,174 ] 32 root - INFO - Read the dataset as dataframe
+[ 2024-05-17 16:25:19,482 ] 38 root - INFO - Train test split initiated
+[ 2024-05-17 16:25:19,852 ] 45 root - INFO - Ingestion of the data is completed
+[ 2024-05-17 16:25:20,085 ] 120 root - INFO - Read train and test data completed
+[ 2024-05-17 16:25:20,210 ] 142 root - INFO - Obtaining preprocessing object
+[ 2024-05-17 16:25:20,210 ] 79 root - INFO - Categorical columns: ['InteriorsStyle', 'Material', 'Agency', 'AreaIncomeType', 'Channel', 'PlotType', 'Architecture', 'Region', 'SubModel', 'Facade', 'State', 'RegionType']
+[ 2024-05-17 16:25:20,210 ] 80 root - INFO - Float columns: ['PriceIndex8', 'PriceIndex9', 'PriceIndex7', 'PriceIndex4', 'PriceIndex1', 'PriceIndex6', 'PriceIndex3', 'PriceIndex5', 'PriceIndex2']
+[ 2024-05-17 16:25:20,222 ] 81 root - INFO - Int columns: ['ExpeditedListing', 'InsurancePremiumIndex', 'NormalisedPopulation', 'PropertyAge']

@@ -1,0 +1,20 @@
+[ 2024-05-17 17:36:39,443 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+[ 2024-05-17 17:36:39,443 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-05-17 17:37:03,694 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:37:03] "GET / HTTP/1.1" 200 -
+[ 2024-05-17 17:37:03,767 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:37:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-05-17 17:37:09,671 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:37:09] "[33mGET /home.html HTTP/1.1[0m" 404 -
+[ 2024-05-17 17:37:18,496 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:37:18] "GET / HTTP/1.1" 200 -
+[ 2024-05-17 17:37:24,991 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:37:24] "GET /predictdata HTTP/1.1" 200 -
+[ 2024-05-17 17:40:14,098 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:40:14] "[33mPOST /submit HTTP/1.1[0m" 404 -
+[ 2024-05-17 17:44:47,035 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:44:47] "[33mPOST /submit HTTP/1.1[0m" 404 -
+[ 2024-05-17 17:44:54,923 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:44:54] "POST /predictdata HTTP/1.1" 200 -
+[ 2024-05-17 17:45:10,305 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:45:10] "[33mPOST /submit HTTP/1.1[0m" 404 -
+[ 2024-05-17 17:48:10,982 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:48:10] "POST /predictdata HTTP/1.1" 200 -
+[ 2024-05-17 17:49:21,654 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:49:21] "GET /predictdata HTTP/1.1" 200 -
+[ 2024-05-17 17:50:12,442 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 17:50:12] "[33mPOST /submit HTTP/1.1[0m" 404 -
+[ 2024-05-17 18:57:41,829 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 18:57:41] "[33mPOST /submit HTTP/1.1[0m" 404 -
+[ 2024-05-17 18:59:02,298 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 18:59:02] "POST /predictdata HTTP/1.1" 200 -
+[ 2024-05-17 19:04:00,887 ] 96 werkzeug - INFO - 127.0.0.1 - - [17/May/2024 19:04:00] "POST /predictdata HTTP/1.1" 200 -

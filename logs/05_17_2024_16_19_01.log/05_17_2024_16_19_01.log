@@ -1,0 +1,7 @@
+[ 2024-05-17 16:19:02,662 ] 29 root - INFO - Entered the data ingestion method or component
+[ 2024-05-17 16:19:02,863 ] 32 root - INFO - Read the dataset as dataframe
+[ 2024-05-17 16:19:03,198 ] 38 root - INFO - Train test split initiated
+[ 2024-05-17 16:19:03,558 ] 45 root - INFO - Ingestion of the data is completed
+[ 2024-05-17 16:19:03,769 ] 120 root - INFO - Read train and test data completed
+[ 2024-05-17 16:19:03,927 ] 145 root - INFO - Removal of correlated columns starts
+[ 2024-05-17 16:19:03,927 ] 99 root - INFO - correlated_columns() method called

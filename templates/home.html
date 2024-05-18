@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input</title>
+</head>
+<body>
+    
+    <h1>Property Details Form</h1>
+    <!--<form action="/submit" method="POST">-->
+    <form action="{{ url_for('predict_datapoint')}}" method="post"></form>
+        <label for="InteriorsStyle">Interiors Style:</label>
+        <input type="text" id="InteriorsStyle" name="InteriorsStyle"><br><br>
+
+        <label for="PriceIndex8">Price Index 8:</label>
+        <input type="text" id="PriceIndex8" name="PriceIndex8"><br><br>
+
+        <label for="ListDate">List Date:</label>
+        <input type="text" id="ListDate" name="ListDate"><br><br>
+
+        <label for="Material">Material:</label>
+        <input type="text" id="Material" name="Material"><br><br>
+
+        <label for="PriceIndex9">Price Index 9:</label>
+        <input type="text" id="PriceIndex9" name="PriceIndex9"><br><br>
+
+        <label for="Agency">Agency:</label>
+        <input type="text" id="Agency" name="Agency"><br><br>
+
+        <label for="AreaIncomeType">Area Income Type:</label>
+        <input type="text" id="AreaIncomeType" name="AreaIncomeType"><br><br>
+
+        <label for="EnvRating">Environmental Rating:</label>
+        <input type="text" id="EnvRating" name="EnvRating"><br><br>
+
+        <label for="PriceIndex7">Price Index 7:</label>
+        <input type="text" id="PriceIndex7" name="PriceIndex7"><br><br>
+
+        <label for="ExpeditedListing">Expedited Listing:</label>
+        <input type="text" id="ExpeditedListing" name="ExpeditedListing"><br><br>
+
+        <label for="PriceIndex4">Price Index 4:</label>
+        <input type="text" id="PriceIndex4" name="PriceIndex4"><br><br>
+
+        <label for="PriceIndex1">Price Index 1:</label>
+        <input type="text" id="PriceIndex1" name="PriceIndex1"><br><br>
+
+        <label for="PriceIndex6">Price Index 6:</label>
+        <input type="text" id="PriceIndex6" name="PriceIndex6"><br><br>
+
+        <label for="PRIMEUNIT">Prime Unit:</label>
+        <input type="text" id="PRIMEUNIT" name="PRIMEUNIT"><br><br>
+
+        <label for="Channel">Channel:</label>
+        <input type="text" id="Channel" name="Channel"><br><br>
+
+        <label for="Zip">Zip Code:</label>
+        <input type="text" id="Zip" name="Zip"><br><br>
+
+        <label for="InsurancePremiumIndex">Insurance Premium Index:</label>
+        <input type="text" id="InsurancePremiumIndex" name="InsurancePremiumIndex"><br><br>
+
+        <label for="PlotType">Plot Type:</label>
+        <input type="text" id="PlotType" name="PlotType"><br><br>
+
+        <label for="Architecture">Architecture:</label>
+        <input type="text" id="Architecture" name="Architecture"><br><br>
+
+        <label for="PriceIndex3">Price Index 3:</label>
+        <input type="text" id="PriceIndex3" name="PriceIndex3"><br><br>
+
+        <label for="Region">Region:</label>
+        <input type="text" id="Region" name="Region"><br><br>
+
+        <label for="PriceIndex5">Price Index 5:</label>
+        <input type="text" id="PriceIndex5" name="PriceIndex5"><br><br>
+
+        <label for="SubModel">Sub Model:</label>
+        <input type="text" id="SubModel" name="SubModel"><br><br>
+
+        <label for="Facade">Facade:</label>
+        <input type="text" id="Facade" name="Facade"><br><br>
+
+        <label for="State">State:</label>
+        <input type="text" id="State" name="State"><br><br>
+
+        <label for="NormalisedPopulation">Normalized Population:</label>
+        <input type="text" id="NormalisedPopulation" name="NormalisedPopulation"><br><br>
+
+        <label for="BuildYear">Build Year:</label>
+        <input type="text" id="BuildYear" name="BuildYear"><br><br>
+
+        <label for="RegionType">Region Type:</label>
+        <input type="text" id="RegionType" name="RegionType"><br><br>
+
+        <label for="PropertyAge">Property Age:</label>
+        <input type="text" id="PropertyAge" name="PropertyAge"><br><br>
+
+        <label for="PriceIndex2">Price Index 2:</label>
+        <input type="text" id="PriceIndex2" name="PriceIndex2"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <h2>
+        THE  prediction is {{results}}
+     </h2>
+</body>
+</html>

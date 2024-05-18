@@ -1,0 +1,14 @@
+[ 2024-05-17 14:50:51,910 ] 29 root - INFO - Entered the data ingestion method or component
+[ 2024-05-17 14:50:52,259 ] 32 root - INFO - Read the dataset as dataframe
+[ 2024-05-17 14:50:52,892 ] 38 root - INFO - Train test split initiated
+[ 2024-05-17 14:50:53,543 ] 45 root - INFO - Ingestion of the data is completed
+[ 2024-05-17 14:50:53,962 ] 104 root - INFO - Read train and test data completed
+[ 2024-05-17 14:50:54,097 ] 112 root - INFO - Obtaining preprocessing object
+[ 2024-05-17 14:50:54,182 ] 79 root - INFO - Categorical columns: ['InteriorsStyle', 'Material', 'Agency', 'AreaIncomeType', 'Channel', 'PlotType', 'Architecture', 'Region', 'SubModel', 'Facade', 'State', 'RegionType']
+[ 2024-05-17 14:50:54,182 ] 80 root - INFO - Float columns: ['PriceIndex8', 'PriceIndex9', 'PriceIndex7', 'PriceIndex4', 'PriceIndex1', 'PriceIndex6', 'PriceIndex3', 'PriceIndex5', 'PriceIndex2']
+[ 2024-05-17 14:50:54,187 ] 81 root - INFO - Int columns: ['ExpeditedListing', 'InsurancePremiumIndex', 'NormalisedPopulation', 'PropertyAge']
+[ 2024-05-17 14:50:54,190 ] 122 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2024-05-17 14:50:55,198 ] 134 root - INFO - Saved preprocessing object.
+[ 2024-05-17 14:50:55,214 ] 31 root - INFO - Split training and test input data
+[ 2024-05-17 14:51:54,649 ] 99 root - INFO - Best found model on both training and testing dataset
+[ 2024-05-17 14:51:54,652 ] 100 root - INFO - Best model name DecisionTreeClassifier()

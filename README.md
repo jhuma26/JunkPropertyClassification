@@ -13,3 +13,9 @@ In this project we will be making use of data from such past operations where ma
 were found to be junk after their purchase for renovations. Our task is to predict if a property is
 going to be unfit using its listing details and other features which are part of first preliminary
 assessment .
+
+# Software and Tool used
+1. [VSCode IDE] https://code.visualstudio.com/
+2. [Github Actions](https://github.com)
+3. [Jupyter Notebook](https://jupyter.org/)
+

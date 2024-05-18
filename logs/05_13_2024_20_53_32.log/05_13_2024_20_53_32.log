@@ -1,0 +1,7 @@
+[ 2024-05-13 20:53:40,230 ] 28 root - INFO - Entered the data ingestion method or component
+[ 2024-05-13 20:53:40,581 ] 31 root - INFO - Read the dataset as dataframe
+[ 2024-05-13 20:53:41,131 ] 37 root - INFO - Train test split initiated
+[ 2024-05-13 20:53:41,815 ] 44 root - INFO - Ingestion of the data is completed
+[ 2024-05-13 20:53:42,226 ] 117 root - INFO - Read train and test data completed
+[ 2024-05-13 20:53:42,396 ] 125 root - INFO - Obtaining preprocessing object
+[ 2024-05-13 20:53:42,505 ] 43 root - INFO - Removal of correlated columns from preprocessing object starts
