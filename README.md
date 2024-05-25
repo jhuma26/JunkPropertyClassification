@@ -1,3 +1,4 @@
+JUNK PROPERTY PREDICTION
 As the real estate becomes a scarce commodity in big cities of the world; renovating old
 properties for sale is becoming a thriving business. However, not every property becomes an
 attractive portfolio after tons of time, money and effort goes into giving it a second life.
@@ -15,7 +16,7 @@ going to be unfit using its listing details and other features which are part of
 assessment .
 
 # Software and Tool used
-1. [VSCode IDE] https://code.visualstudio.com/
+1. [VSCode] (https://code.visualstudio.com)
 2. [Github Actions](https://github.com)
 3. [Jupyter Notebook](https://jupyter.org/)
 
