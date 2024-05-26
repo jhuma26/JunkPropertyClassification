@@ -1,16 +1,15 @@
 import os
 import sys
 
-current_dir = os.path.dirname(os.path.realpath('E:\Data science projects\project5\src\components\data_ingestion.py'))
-# Get the parent directory (root of the project)
-project_root = os.path.abspath(os.path.join(current_dir, "E:\Data science projects\project5"))
-sys.path.append(project_root)
+# current_dir = os.path.dirname(os.path.realpath('E:\Data science projects\project5\src\components\data_ingestion.py'))
+# # Get the parent directory (root of the project)
+# project_root = os.path.abspath(os.path.join(current_dir, "E:\Data science projects\project5"))
+# sys.path.append(project_root)
 from src.exception import CustomException
 from src.logger import logging
 import pandas as pd
 from src.components.data_transformation import DataTransformation
 from src.components.model_trainer import ModelTrainer
-from src.components.feature_engineering import FeatureEngineering
 
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
@@ -55,14 +54,9 @@ class DataIngestion:
 if __name__=="__main__":
      obj=DataIngestion()
      train_data,test_data=obj.initiate_data_ingestion()
+     
      data_transformation=DataTransformation()
      train_arr,test_arr,_=data_transformation.initiate_data_transformation(train_data,test_data)
-
-    #  data_transformation=DataTransformation()
-    #  train_df,test_df,_=data_transformation.initiate_data_transformation(train_data,test_data)
-
-    #  feature_engineering = FeatureEngineering()
-    #  train_arr,test_arr,_= feature_engineering.feature_engineered(train_df,test_df)
 
      modeltrainer=ModelTrainer()
      print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
